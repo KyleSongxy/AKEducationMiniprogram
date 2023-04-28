@@ -1,0 +1,149 @@
+const FinContent = [
+  {
+    title:"FIMM",
+    content:[
+      {text:"1001/7006"},
+      {text:"2001/7007"},
+      {text:"2002/7041"},
+      {text:"3005/7044"},
+      {text:"3008/8016"},
+      {text:"2003/7008"},
+      {text:"8007"}
+    ]
+  },
+  {
+    title:"ECON",
+    content:[
+      {text:"1101"},
+      {text:"1102"},
+      {text:"2101"},
+      {text:"2102"},
+      {text:"2013"},
+      {text:"7073"},
+      {text:"7074"},
+      {text:"8013"},
+      {text:"8025"},
+      {text:"8069"},
+      {text:"8026"}
+    ]
+  },
+  {
+    title:"STAT",
+    content:[
+      {text:"4102/8002"},
+      {text:"2001/6039"},
+      {text:"2008/6038"},
+      {text:"2032/6046"},
+      {text:"3008/7001"},
+      {text:"1008"},
+      {text:"6040"},
+      {text:"6042"},
+      {text:"7055"},
+      {text:"6014"},
+    ]
+  },
+  {
+    title:"EMET",
+    content:[
+      {text:"1001"},
+      {text:"7001"},
+      {text:"8005"}
+    ]
+  },
+  {
+    title:"MATH",
+    content:[
+      {text:"All 1000"},
+      {text:"All 2000"},
+      {text:"All 3000"}
+    ]
+  },
+  {
+    title:"BUSN",
+    content:[
+
+      {text:"1101/7052"},
+      {text:"2011/7031"},
+      {text:"2101/7057"},
+      {text:"2015/7050"},
+      {text:"3001/7005"},
+      {text:"3002/7054"},
+      {text:"3014/7021"},
+      {text:"7008"},
+      {text:"7036"},
+      {text:"1001"},
+      {text:"1002"}
+    ]
+  },
+  {
+    title:"INFS",
+    content:[
+      {text:"2005/7004"},
+    ]
+  },
+]
+
+const CSContent = [
+  {
+    title:"COMP",
+    content:[
+      {text:"1110/6710"},
+      {text:"1730/6730"},
+      {text:"2100/6442"},
+      {text:"1600/6260"},
+      {text:"2620/6262"},
+      {text:"3310/6331"},
+      {text:"3425/8410"},
+      {text:"2410/6340"},
+      {text:"3620/6320"},
+      {text:"3670/6670"},
+      {text:"2400/6240"},
+      {text:"1710/6780"},
+      {text:"3600/6466"},
+      {text:"6250"},
+      {text:"8260"},
+    ]
+  },
+]
+
+const PTEContent = [
+  {
+    title:"课程咨询",
+    content:[
+      {text:"1对1强化"},
+      {text:"名师保过"},
+      {text:"保7冲8"},
+    ]
+  },
+]
+
+const WorkContent = [
+  {
+    title:"Tutor",
+    content:[
+      {text:"CBE"},
+      {text:"CS"},
+    ]
+  },
+  {
+    title:"IT Developer",
+    content:[
+      {text:"前端开发"},
+      {text:"后端开发"},
+      {text:"美工设计"},
+    ]
+  },
+  {
+    title:"工商管理",
+    content:[
+      {text:"会计"},
+    ]
+  },
+]
+
+module.exports = {
+  FinContent,
+  CSContent,
+  PTEContent,
+  WorkContent
+}
